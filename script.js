@@ -13,18 +13,13 @@ function randomNum() {
 
               }
 
-         }
+}
 
-         function reset() {
+//Date setting
+let date = new Date()
+document.getElementById('date').textContent = date;
 
+function reset() {
               document.getElementById('member').remove();
+}
 
-         }
-
-         function print() {
-              if(window.print() === true) {
-                   document.getElementById('btn').remove();
-                   document.getElementById('reset-btn').remove();
-                   document.getElementById('pri').remove();
-              }
-         }
